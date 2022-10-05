@@ -1,0 +1,10 @@
+.cell{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: rgb(180, 145, 145);
+}
+
+.content{
+    display: flex;
+}
