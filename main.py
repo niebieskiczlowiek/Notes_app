@@ -14,12 +14,10 @@ Base = declarative_base()
 engine = create_engine('sqlite:///:memory:', echo = True)
 Session = sessionmaker(bind=engine)
 
-
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(200), nullable=False)
     content = db.Column(db.String(200), nullable=False)
-
 
 def getNotes():
     db.drop_all()
@@ -27,7 +25,7 @@ def getNotes():
     listOfNotes = os.listdir('./notes')
     for file in listOfNotes:
         with open('notes/' + file, "r") as f:
-            title = file
+            title = file.split('.txt')[0]
             content = f.read()
             note = Note(title=title, content=content)
             print(note.title, note.content)
