@@ -6,8 +6,11 @@
 
 {% block body %}
 <h1>{{ note.title }}</h1>
-<div class="content">
-    <p>{{ note.content }}</p>
-    </div>
+{{ for item in note }}
+<div>
+    {{ note.title }}
+    {{ note.id }}
+    {{ note.content }}
 </div>
+{% endfor %}
 {% endblock %}

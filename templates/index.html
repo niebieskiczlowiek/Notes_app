@@ -8,9 +8,9 @@
 <h1>Notes</h1>
 <div>
     {% for note in notes %}
-        <div class="content">
-            <h2>{{ note.title }}</h2>
-            <p>{{ note.content }}</p>
+        <div>
+            {{ note.title }}
+            <a href="/note/{{ note.id }}">View</a>
         </div>
     {% endfor %}
 </div>

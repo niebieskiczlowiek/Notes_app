@@ -32,51 +32,19 @@ def getNotes():
             note = Note(title=title, content=content)
             print(note.title, note.content)
             db.session.add(note)
-            db.session.commit()
-
-
-# class Note:
-#     newid = itertools.count().__next__
-#     def __init__(self, title, content):
-#         self.title = title
-#         self.content = content
-#         self.id = Note.newid()
-
-#     def getTitle(self):
-#         return self.title
-#     def getContent(self):
-#         return self.content
-#     def getId(self):
-#         return self.id
-
-
-
-# allNotes = os.listdir('./notes')
-# notes = []
-# for i in allNotes:
-#     with open('notes/' + i, 'r') as f:
-#         note = Note(i, f.read())
-#         print(note.title)
-#         notes.append(note)
-
-# notes = getNotes()
+            db.session.commit() 
 
 @app.route("/" , methods=['GET', 'POST'])
 def index():
     getNotes()
     notes = Note.query.order_by(Note.id).all()
     return render_template('index.html', notes = notes)
-    # return render_template('note.html', notes=notes)
 
-@app.route('/note/<id>' , methods=['GET', 'POST'])
+@app.route("/note/<id>" , methods=['GET', 'POST'])
 def note(id):
     getNotes()
-    notes = Note.query.filter_by(id=id).first()
-    for i in notes:
-        print(i.id)
-        if i.getId() == int(id):
-            return render_template('note.html', note = i)
-    return render_template('note.html', note = 1)
+    note = Note.query.filter_by(id=id).first()
+    return render_template('note.html', note = note)
 
 if __name__ == '__main__':
     app.run(debug=True)
