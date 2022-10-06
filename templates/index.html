@@ -1,16 +1,21 @@
 {% extends 'base.html' %} 
 
 {% block head %}
+<link rel="stylesheet" href="/static/css/styles.css">
 <title>Notes</title>
 {% endblock %}
 
 {% block body %}
-<h1>Notes</h1>
-<div>
+<h1 class="header">Notes</h1>
+<div class="dashboard">
     {% for note in notes %}
-        <div>
-            {{ note.title }}
-            <a href="/note/{{ note.id }}">View</a>
+        <div class="cell">
+            <h1>{{ note.title }}</h1>
+            <p class="preview">{{ note.preview }}</p>
+            <span class="material-symbols-outlined">
+                <a href="/note/{{ note.id }}" title="View note" class="btn-link">forward</a>
+            </span>
+           
         </div>
     {% endfor %}
 </div>
