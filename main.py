@@ -2,11 +2,15 @@ from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import ForeignKey, Column, Integer, String, DateTime, create_engine
 from sqlalchemy.orm import sessionmaker, relationship, declarative_base
+from werkzeug.utils import secure_filename
 import os
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 app.config['SQLALCHEMY_ECHO'] = True
+UPLOAD_FOLDER = 'notes'
+ALLOWED_EXTENSIONS = {'txt'}
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 db = SQLAlchemy(app)
 
 Base = declarative_base()
@@ -38,8 +42,6 @@ def getNotes():
             db.session.add(note)
             db.session.commit()
 
-
-
 @app.route("/" , methods=['GET', 'POST'])
 def index():
     getNotes()
@@ -51,6 +53,17 @@ def note(id):
     getNotes()
     note = Note.query.filter_by(id=id).first() 
     return render_template('note.html', note = note)
+
+@app.route("/upload" , methods=['GET', 'POST'])
+def upload():
+    return render_template('upload.html')
+
+@app.route("/uploader", methods=['GET', 'POST'])
+def uploader():
+    if request.method == 'POST':
+        f = request.files['file']
+        f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename)))
+        return redirect('/')
 
 if __name__ == '__main__':
     app.run(debug=True)
