@@ -5,13 +5,13 @@
 {% endblock %}
 
 {% block body %}
+<div class="topbar">
+    <h1>{{note.title}}</h1>
+    <span class="material-symbols-outlined">
+        <a href="/" title="Back to main" class="icon">undo</a>
+    </span>
+</div>
 <div class="container">
-    <div class="topbar">
-        <h1>{{note.title}}</h1>
-        <span class="material-symbols-outlined">
-            <a href="/">undo</a>
-        </span>
-    </div>
     <div class="note">
         <pre>{{note.content}}</pre>
     </div>

@@ -11,14 +11,13 @@
     row-gap: 1rem;
 }
 
-.toolbar{
-    display: flex;
-    justify-content: space-between;
-    width: 50px;
-}
-
 .preview {
     opacity: 0.4;
+}
+
+.icon{
+    font-size: 35px;
+    text-align: center;
 }
 
 .cell {
@@ -39,7 +38,9 @@
 .topbar{
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
 }
 
 .note{
