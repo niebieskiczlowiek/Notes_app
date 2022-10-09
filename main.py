@@ -48,6 +48,10 @@ def index():
     notes = Note.query.order_by(Note.id).all()
     return render_template('index.html', notes = notes)
 
+@app.route("/option", methods=['GET', 'POST'])
+def chooseUpload():
+    return render_template('option.html')
+
 @app.route("/note/<id>" , methods=['GET', 'POST'])
 def note(id):
     getNotes()
@@ -62,8 +66,32 @@ def upload():
 def uploader():
     if request.method == 'POST':
         f = request.files['file']
-        f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename)))
+        print("=======================================")
+        print(f.filename)
+        if f.filename.split('.')[1] in ALLOWED_EXTENSIONS:
+            f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename)))
+            return redirect('/')
+        else:
+            return "Wrong file format"
+    else:
+        return redirect('/upload')
+
+
+@app.route("/write_note", methods=['GET', 'POST'])
+def write_note():
+    return render_template('write.html')
+
+@app.route("/writer", methods=['GET', 'POST'])
+def writer():
+    if request.method == 'POST':
+        title = request.form['title']
+        content = request.form['content']
+        file = open('notes/' + title + '.txt', 'w')
+        file.write(content)
+        file.close()
         return redirect('/')
+    else:
+        return render_template('write.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

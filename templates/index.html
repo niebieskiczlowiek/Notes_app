@@ -9,14 +9,14 @@
 <div class="topbar">
     <h1>Notes</h1>
     <span class="material-symbols-outlined">
-        <a href="/upload" title="Upload note" class="icon"> publish </a>
+        <a href="/option" title="Upload note" class="icon"> publish </a>
     </span>
 </div>
 
 <div class="dashboard">
     {% for note in notes %}
         <div class="cell">
-            <h1>{{ note.title }}</h1>
+            <h1 class="noteHeader">{{ note.title }}</h1>
             <p class="preview">{{ note.preview }}</p>
             <span class="material-symbols-outlined">
                 <a href="/note/{{ note.id }}" title="View note" class="icon">forward</a>

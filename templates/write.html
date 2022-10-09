@@ -1,0 +1,22 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+<title>Write Note</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+
+    <div class="topbar">
+        <h1>Write Note</h1>
+        <span class="material-symbols-outlined">
+            <a href="/option" class="icon">undo</a>
+        </span>
+    </div>
+
+    <form action="/writer" method="POST" class="form">
+        <input type="text" name="title" placeholder="Title" class="input">
+        <textarea name="content" placeholder="Content" class="input"></textarea>
+        <input type="submit" value="Save" class="btn btn-primary">
+    </form>
+{% endblock %}

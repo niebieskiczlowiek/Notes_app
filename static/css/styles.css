@@ -1,3 +1,7 @@
+body{
+    background:rgb(197, 197, 205);
+}
+
 .header {
     margin: auto;
     width: 50%;
@@ -8,7 +12,13 @@
     width: 50%;
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 1rem;
+    border-radius: 7px;
+    padding: 15px;
+    overflow-y: scroll; height:800px;
+    background: white;
+    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset 0px 0px 16px -1px rgba(66, 68, 90, 1);
+    box-shadow: inset 0px 0px 16px -1px rgba(66, 68, 90, 1);
 }
 
 .preview {
@@ -30,17 +40,22 @@
     margin: 5px;
     height: 150px;
     width: 250px;
-    -webkit-box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1);
+    /* -webkit-box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1);
-    box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1);
+    box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1); */
 }
 
 .topbar{
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin: auto;
+    margin: 10px auto;
     padding: 10px;
+    background:white;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 16px -1px rgba(66, 68, 90, 1);
 }
 
 .note{
@@ -55,4 +70,24 @@
     -webkit-box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1);
     box-shadow: 0px 6px 38px -10px rgba(66, 68, 90, 1); 
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.noteHeader{
+    overflow-y: scroll; height:60px;
 }

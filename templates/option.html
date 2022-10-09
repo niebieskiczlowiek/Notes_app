@@ -1,0 +1,26 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+<title>Choose upload option</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+
+    <div class="topbar">
+        <h1>Choose upload option</h1>
+        <span class="material-symbols-outlined">
+            <a href="/" title="Back to main" class="icon">undo</a>
+        </span>
+    </div>
+
+    <div class="option">
+        <a href="/upload" class="btn btn-primary">Upload a file</a>
+
+        <p> or </p>
+
+        <a href="/write_note" class="btn btn-primary">Write a new note</a>
+    </div>
+
+</div>
+{% endblock %}

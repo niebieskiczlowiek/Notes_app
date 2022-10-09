@@ -5,8 +5,17 @@
 {% endblock %}
 
 {% block body %}
-<form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
-    <input type = "file" name = "file" />
-    <input type = "submit"/>
-</form> 
+<div class="container">
+
+    <div class="topbar">
+        <h1>Upload</h1>
+        <span class="material-symbols-outlined">
+            <a href="/option" title="Back to main" class="icon">undo</a>
+        </span>
+    </div>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data" class="form">
+        <input type="file" name="file" class="input">
+        <input type="submit" value="Upload" class="btn btn-primary">
+    </form>
 {% endblock %}
