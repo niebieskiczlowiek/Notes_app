@@ -1,0 +1,21 @@
+v - szybkość reakcji
+
+v = ilość reagenta powstała lub przetworzona / czas w ktorym zaszła reakcja.
+
+v = -(ΔCsubstratu / Δt) = ΔCproduktu / Δt
+
+ΔCsubstratu, ΔCproduktu = zmiany stężeń molowych poszczególnych reagentów A, B, C i D
+Δt - czas, w ktorym następiła zmiana steżenia reagentu
+
+jednostka szybkosci reakcji - mol / dm^3 * s 
+
+- Im większa temperatura substancji tym wieksza energia kinetyczna jej drobin -> szybsze reakcje chemiczne
+Zmiana temperatury o 10 stopni zmienia dwu- do czterokrotne szybkość reakcji
+
+rozdrobnienie substancji -> szybsza reakcja
+
+inne czynniki:
+    - światło
+    - rodzaj rozpuszczalnika
+    - ciśnienie
+    - katalizatory i inihibitory

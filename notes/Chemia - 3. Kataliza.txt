@@ -1,0 +1,6 @@
+Katalizator -
+    substancja, której obecność w mieszanine reakcyjnen powoduje zwiększenie szybkości reakcji
+
+Katalizator nie zużywa sie podczas reakcji i można go odzyskać.
+
+Kontakt - katalizator w stanie stałym, umieszczony w środowsiku gazowyc lub ciekłych reagentów

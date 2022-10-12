@@ -1,0 +1,19 @@
+Efekt energetyczny - 
+    wymiana energii między układem reagentów a otoczeniem. 
+
+Układy:
+    - Układ izolowany
+        nie wymienia z otoczeniem ani energii, ani substancji
+    - Układ zamknięty
+        nie wymienia z otoczeniem substancji; moze jednak wymieniac energie
+    - Układ otwarty
+        moze wymieniac i energie i substancje
+
+- Proces egzoenergetyczny - energia z układu do otoczenia
+- Proces endoenergetyczny - energia z otoczenia do układu
+
+-Energia wiązania - energia potrzebna do rozerwania wiązania i ta uwalniana przy jego tworzeniu
+
+Entalpia - miara efektyu energetycznego reakcji jesli wymiana materii nastepuje wyłąćznie na sposób ciepła (ΔH)
+
+- Energia aktywacji - minimalna wartosc sumy energii kinetycznych, którą muszą mieć drobiny, aby ich zderzenie mogło być chemiczne efektywne
