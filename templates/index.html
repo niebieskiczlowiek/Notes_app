@@ -18,9 +18,14 @@
         <div class="cell">
             <h1 class="noteHeader">{{ note.title }}</h1>
             <p class="preview">{{ note.preview }}</p>
-            <span class="material-symbols-outlined">
-                <a href="/note/{{ note.id }}" title="View note" class="icon">forward</a>
-            </span>
+            <div class="option">
+                <span class="material-symbols-outlined">
+                    <a href="/delete/{{ note.id }}" title="Delete note" class="icon">delete</a>
+                </span>
+                <span class="material-symbols-outlined">
+                    <a href="/note/{{ note.id }}" title="View note" class="icon">forward</a>
+                </span>
+            </div>  
         </div>
     {% endfor %}
 </div>

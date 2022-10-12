@@ -93,5 +93,22 @@ def writer():
     else:
         return render_template('write.html')
 
+@app.route("/deleter/<id>", methods=['GET', 'POST'])
+def deleter(id):
+    if request.method == 'POST':
+        note = Note.query.filter_by(id=id).first()
+        listOfNotes = os.listdir('./notes')
+        for file in listOfNotes:
+            if file.split('.txt')[0] == note.title:
+                os.remove('notes/' + file)
+        return redirect('/')
+    else:
+        return redirect('/delete/' + id)
+
+@app.route("/delete/<id>", methods=['GET', 'POST'])
+def delete(id):
+    note = Note.query.filter_by(id=id).first()
+    return render_template('delete.html', note = note)
+
 if __name__ == '__main__':
     app.run(debug=True)
