@@ -110,5 +110,5 @@ def delete(id):
     note = Note.query.filter_by(id=id).first()
     return render_template('delete.html', note = note)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+        app.run(debug=True)
