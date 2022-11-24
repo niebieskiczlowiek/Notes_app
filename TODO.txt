@@ -1,4 +1,0 @@
-1. Uploading files and storing them in the database
-2. Retrieving files from the database and displaying them in the browser
-3. Deleting files from the database
-4.
