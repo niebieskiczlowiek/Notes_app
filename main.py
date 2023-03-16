@@ -15,7 +15,7 @@ db = SQLAlchemy(app)
 
 Base = declarative_base()
 engine = create_engine('sqlite:///:memory:', echo = True)
-Session = sessionmaker(bind=engine)
+Session = sessionmaker(bind=engine) 
 
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
