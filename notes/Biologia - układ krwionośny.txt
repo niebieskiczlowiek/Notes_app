@@ -1,0 +1,162 @@
+### ==Elementy układu krwionośnego
+
+- Serce - pompa kurcząca się reguralnie (co 0,8 sekundy)
+- Naczynia krwionośne - tętnice, żyły, naczynia włosowate
+	- Tętnice - wyprowadzają krew z serca
+	- Żyły - doprowadzają krew do serca
+	- Naczynia włosowate - najmniejsze naczynia, które bezpośrednio dochodzą do każdej komórki organizmu
+
+**Krew**
+
+Krew utlenowana - doprowadzana przez tętnice (tzw. krew czysta)
+Krew odtlenowana - zawiera dwutlenek węgla, płynie żyłami (potocznie krew brudna)
+
+**Krwiobieg**
+- Mały (płucny)
+	- Serce -> płuca -> serce
+	- Prawa komora serca -> tętnica płucna -> naczynia włosowate płuc -> drobne żyły -> żyła płucna -> lewy przedsionek serca
+- Duży
+	- Aorta - największa tętnica
+	- Lewa komora serca -> aorta -> drobne tętnice -> naczynia włosowate komórek ciała -> drobne żyły -> żyła główna -> prawy przedsionek serca
+
+**Tętnice i żyły**
+
+Tętnice:
+- Duże ciśnienie krwi
+- Grube ściany
+- Gruba warstwa mięśni gładkich
+- Brak zastawek
+Żyły:
+- Małe ćisnienie krwi
+- Mała grubość ścian
+- Cienka warstwa mięśni gładkich
+- Zastawki
+
+----
+
+## ==Budowa i działanie serca== 
+
+
+**Serce** - 4 działowe
+- Dwie komory i dwa przedsionki, wraz z zastawkami
+
+**Ciśnienie** - siła z jaką krew naciska na ściany tętnic
+
+**Automatyzm pracy serca**
+- Serce ma własny rozrusznik
+
+
+**Cykl pracy serca**
+Skurcz przedsionków wypycha krew do komór -> skórcz komór wypycha krew do tętnic
+
+- Trwa ok. 0,8s
+	- Skórcz przedsionka - 0,15s
+	- Skórcz komory - 0,3s
+	-  Rozkórcz - 0,35s
+
+**Węzeł przedsionkowo-komorowy**  - naturalny rozrusznik, inicjuje pracę serca 
+
+**Tętno** - rytmiczne rozciąganie się tętnic pod wpływem zmian ciśnienia krwii
+**Osiędzie** - worek w którym znajduje się serce
+
+---- 
+
+## ==Układ limfatyczny==
+
+<b><u>Funkcje układu limfatycznego</u></b>
+
+- Bierze udział w utrzymaniu homoestazy
+- Ochrona organizmu przed drobnoustrojami => w układzie powstają i dojrzewają komórki odpornościowe
+- Regulacja płynów ustrojowych
+- Transport tłuszczy do układu krwionośnego
+
+<b><u>Elementy układu limfatycznego</u></b>
+
+- Naczynia limfatyczne w których krąży w jednym kierunki limfa (nazywaną chłonką)
+- W naczyniach zastawki
+- Narządy limfatyczne => obwodowe i centralne
+	- Węzły chłonne 
+	- Śledziona
+	- grudki
+	- Migdałki
+	- grasica
+	- szpik kostny
+
+
+<i>Szpik kostny odpowiada za wytwarzanie elementów morfotycznych krwi</i>
+<i>Grasica jest elementem układu limfatycznego i jest gruczołem dokrewnym</i>
+<i>Śledziona niszczy zużyte leukocyty i starzejące się komórki krwi</i>
+<i>Węzły chłonne filturją limfę, zatrzymują drobne ustroje chorobotwórcze</i>
+
+
+<b><i>Jak działa układ limfatyczny</i></b>
+	Zapewnia przepływ limfy do układy krwionośnego. Limfa jest transportowana do dużych żył, znajdujących się w pobliżu serca. Tam łączy się z krwią w krwioobiegu. Przewód piersionwy jest nawiększym naczyniem limfatyncznym, zbiera większość limfy z organizmu i uchodzi do żyły podobojczykowej lewej. 
+
+----
+
+## ==Układ odpornościowy==
+
+***Odporność*** - ochrona organizmu przed drobnoustrojami chorobotwórczymi
+
+***Pierwsza linia obrony***
+- skóra 
+- włosy
+- błony śluzowe
+- łzy
+- Kichanie
+
+***Druga linia obrony***
+- Makrofagi
+
+***Trzecia linia obrony***
+- Limfocyty T
+- Limfocyty B
+
+***Makrofagi // Fagocyty*** - komórki żerne, które niszczą drobno ustroje. Rodzaj bialych ciałek krwi. Pochłania i trawi bakterie martwe lub uszkodzone komórki ciała oraz innych substancji w krwiobiegu.
+
+***Rodzaje odporności:***
+
+- Odporność nabyta
+	-  Odporność czynna - organizm sam styka sie a antygenem i tworzy przeciwcialo
+		- Naturalna - naturalne przejście choroby
+		- Sztuczna - szczepionka
+	- Odporność bierna - dostajemy gotowe przeciwciała
+		- Naturalna - otrzymane od matki przy porodzie
+		- Sztuczna - surowica
+
+- Odporność wrodzona (nieswoista)
+
+
+****
+
+## ==Zaburzenia funkcjonowania układu odpornościowego==
+
+***Alergia*** - występuje gdy układ odpornościowy zbyt silnie reaguje na kontakt z zupełnie nieszkodliwym antygenem
+
+Wyrózniamy trzy rodzaje alergii:
+- ziewne
+- pokarmowe
+- skórne 
+
+***Wstrząs anafilaktyczny*** - spadek ciśnienia
+***Choroba autoimmunologiczna*** - układ odpornosciowy zaczyna zwalczać komórki
+
+
+### Zagadnienia do sprawdzianu
+
+- Skład i budowa krwi
+- Aglutynacja
+	-  Grupy krwi:
+		- A
+		- B
+		- AB
+		- O
+- Układy:
+	- Krwionosny
+	- Limfatyczny
+		- Naczynia limfatyczne
+
+- Cykl pracy serca
+- Choroby ukladu krązenia
+- Opdorność
+	- rodzaje
